@@ -1,0 +1,28 @@
+# Keep private material out of this documentation repository
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite*
+*.log
+*.bak
+credentials*.json
+service-account*.json
+node_modules/
+__pycache__/
+.DS_Store
+.artifacts/
+
+# Application source and deployment artifacts are outside this repository
+src/
+messages/
+drizzle/
+data/
+public/uploads/
+.output/
+.nitro/
+.wrangler/
+wrangler*.json*

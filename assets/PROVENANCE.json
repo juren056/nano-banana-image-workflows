@@ -1,0 +1,62 @@
+{
+  "purpose": "Original illustrative AI-generated documentation assets; not website model tests or customer images.",
+  "generationTool": "Built-in image_gen",
+  "created": "2026-10-12",
+  "copied": "2026-10-13",
+  "assets": [
+    {
+      "file": "assets/examples/product-campaign.webp",
+      "sha256": "640bedf470e88bfc261b9f6f2062296f32cda886b3f46b7207a1760d5ef8612b",
+      "width": 960,
+      "height": 640,
+      "originalPrompt": "examples/01-product-campaign/asset-generation-prompt.txt",
+      "sourceOnly": false,
+      "sourceOnlyNote": "Original illustration."
+    },
+    {
+      "file": "assets/examples/reference-edit.webp",
+      "sha256": "d57e386fdf2721ed70418d3010170092402c581d2fcd1da28d79bac29ee4f03b",
+      "width": 960,
+      "height": 640,
+      "originalPrompt": "examples/02-reference-edit/asset-generation-prompt.txt",
+      "sourceOnly": false,
+      "sourceOnlyNote": "Original illustration."
+    },
+    {
+      "file": "assets/examples/character-scenes.webp",
+      "sha256": "897f68e5513f74108c52b7af76e7fbf7ae43906e5a294136022bfd0c9828a122",
+      "width": 960,
+      "height": 640,
+      "originalPrompt": "examples/03-character-scenes/asset-generation-prompt.txt",
+      "sourceOnly": false,
+      "sourceOnlyNote": "Original illustration."
+    },
+    {
+      "file": "assets/examples/exact-text.webp",
+      "sha256": "acfe843022b43ea2943e8766a7b7269d7c33fd654319975830f88cd68f960083",
+      "width": 960,
+      "height": 640,
+      "originalPrompt": "examples/04-exact-text/asset-generation-prompt.txt",
+      "sourceOnly": false,
+      "sourceOnlyNote": "Original illustration."
+    },
+    {
+      "file": "assets/examples/serum-source.webp",
+      "sha256": "0400936c32c6fcad594a4fc66297453d7cce4dfac3b15726ea71c83a87ced8f1",
+      "width": 640,
+      "height": 853,
+      "originalPrompt": "examples/02-reference-edit/asset-generation-prompt.txt",
+      "sourceOnly": true,
+      "sourceOnlyNote": "Source-only crop of the illustrative asset, not a user upload."
+    },
+    {
+      "file": "assets/examples/photographer-source.webp",
+      "sha256": "fda6ba57c6d3c9dd0e48de4850daed99216b9b280b50b87611594cf3be8ed2ee",
+      "width": 640,
+      "height": 1288,
+      "originalPrompt": "examples/03-character-scenes/asset-generation-prompt.txt",
+      "sourceOnly": true,
+      "sourceOnlyNote": "Source-only crop of the illustrative asset, not a user upload."
+    }
+  ]
+}

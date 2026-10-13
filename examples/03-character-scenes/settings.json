@@ -1,0 +1,9 @@
+{
+  "operation": "edit",
+  "suggestedAspectRatio": "3:2",
+  "outputs": 1,
+  "modelSelection": "Choose an available model supporting this operation; no specific model run is asserted.",
+  "resolution": "Choose a supported resolution and review the live total credit quote.",
+  "reference": "assets/examples/photographer-source.webp",
+  "purpose": "Illustrative workflow settings, not a production API payload."
+}
