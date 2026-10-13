@@ -50,3 +50,8 @@ The tutorials can be read without an account. Generating through the website req
 This repository intentionally contains authored documentation, prompt text, simple example settings and selected illustrative assets only. The application and its business infrastructure are separate and are not open-sourced here.
 
 Corrections and useful prompt refinements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [USAGE.md](USAGE.md). Avoid advertising-only submissions and unsupported performance claims.
+
+
+## Evaluation criteria
+
+Read the [evaluation method](docs/evaluation-method.md) for product preservation, Chinese text, fictional-character edits, background operations and multiple references. The twenty-task set is a planned acceptance procedure; this repository does not claim it has passed or publish an unsupported success rate.
