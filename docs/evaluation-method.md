@@ -1,4 +1,4 @@
-# Image evaluation method
+# Image evaluation results and method
 
 Use these checks before judging an image workflow. An attractive illustration demonstrates a design idea; a recorded website task demonstrates that an operation ran. Neither alone establishes reliability across your work.
 
@@ -6,19 +6,39 @@ Use these checks before judging an image workflow. An attractive illustration de
 
 A published case must include its full prompt, reusable input images with permission, actual provider endpoint, settings, test date and original downloadable output. Record the time from submission to a usable result, quoted and charged credits, retries, failures and any manual editing. Keep a sanitized case identifier rather than publishing private account details.
 
-Our [public workflow repository](https://github.com/juren056/nano-banana-image-workflows) currently contains **illustrative examples** and prompts. Those assets are not a measured website benchmark. New real task results must be explicitly labeled and supported by task records before entering that repository or this site.
+Our [public workflow repository](https://github.com/juren056/nano-banana-image-workflows) separates illustrative artwork from the recorded website outputs below. These are operator tests, not independent reviews.
 
 ## Twenty-task acceptance set
 
-| Category              | Four planned tasks                                                             | Pass criteria                                                                           |
-| --------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| Product scenes        | Bottle, shoe, packaging, square campaign                                       | Preserve subject silhouette, color and label; no extra product parts                    |
-| Chinese posters       | Short headline, two text blocks, packaging copy, portrait event poster         | Compare every requested character; inspect layout at original size                      |
-| Character edits       | Studio, street, bookshop, outdoor scene                                        | Preserve facial features, outfit and accessories against one fictional reference        |
-| Background operations | Plain cutout, hair edges, product cutout, background replacement               | Inspect alpha, edges and subject preservation; replacement is not a transparent cutout  |
-| Multiple references   | Two objects, character plus product, three-object scene, alternate composition | Each reference is identifiable and assigned correctly; no duplicated or merged subjects |
+[View the table on the website](https://nanobanana21pro.com/evaluation-method)
 
 This is the acceptance **method**, not a claim that all twenty tasks have already passed. Test status and outputs must be reported separately. Repeated calls and comparisons increase the request count and cost.
+
+## Recorded website tests — 13 October 2026
+
+We submitted twenty single-output tasks through the production website. All twenty returned an image, costing **150 site credits** in total, with no retries or manual retouching. This records technical completion, not a 100% visual pass rate. Provider billing is separate from site credits. The test account’s balance is not a customer price.
+
+The final set includes four bottle edits, four Chinese designs, four fictional-character edits, three cutouts, one background replacement and four two-reference tasks. Three of the last four use the same scene to compare 2.1, 2 and Pro; this replaces two originally planned independent multi-reference scenes. There are no three-object or person-plus-product tests in this run.
+
+### What the outputs show
+
+- **Chinese designs (NB-05–08):** the requested words and numbers are legible in these four outputs. Slash separators become layout breaks, and spacing/punctuation can vary. This small set does not establish accuracy for longer text or other fonts.
+- **Bottle scenes (NB-01–04, NB-16):** the ivory bottle, black pump and DAILY SERUM label remain recognizable. This is a visual check, not an exact geometry measurement.
+- **Character edits (NB-09–12):** the same fictional subject, shirt and camera remain recognizable, with changes in pose and fine facial details. No identity similarity score is claimed.
+- **Background removal (NB-13–15):** all three PNGs contain real alpha transparency. The person cutout retains a tabletop and the shoe cutout retains pedestal fragments. These need cleanup for a person-only or shoe-only asset; transparent pixels alone are not a clean-cutout pass.
+- **Model comparison (NB-17–19):** all three models return a distinct bottle and shoe on separate pedestals. Composition, scale and texture vary. Each model ran once; 2.1 used 1K while 2 and Pro used provider defaults. This is an example comparison, not a controlled resolution benchmark or model ranking.
+
+The most supported starting scenario in this run is **short Chinese promotional designs**, followed by simple bottle-background edits. Proofread each output and verify product details before publication. This is an operator assessment; external reviewers have not evaluated this set.
+
+### Reproduce and inspect every submitted result
+
+The [complete case manifest](https://nanobanana21pro.com/evidence/2026-10-13/results.json) contains all twenty full prompts, reusable public source references, exact endpoints, stored settings, quoted and charged credits, dimensions, SHA-256 hashes and per-case review notes. References pasted into the browser were converted from the public WebP source to PNG, without intentional content changes. The manifest records which cases used reencoded uploads. No private account identifiers or customer records are published.
+
+Timing below is the server task’s `created_at` to `updated_at` interval. It includes the polling/completion-recording delay, so it is neither a browser stopwatch nor provider-only inference time. A paused test runner can inflate it. No seed was fixed; following the procedure will not reproduce identical pixels.
+
+![Contact sheet of the twenty recorded website outputs](https://nanobanana21pro.com/evidence/2026-10-13/contact-sheet.png)
+
+[View the table on the website](https://nanobanana21pro.com/evaluation-method)
 
 ## Comparing models fairly
 

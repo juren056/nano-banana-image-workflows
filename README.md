@@ -47,11 +47,18 @@ The tutorials can be read without an account. Generating through the website req
 
 ## Contents and contribution
 
-This repository intentionally contains authored documentation, prompt text, simple example settings and selected illustrative assets only. The application and its business infrastructure are separate and are not open-sourced here.
+This repository intentionally contains authored documentation, prompt text, simple example settings and selected illustrative assets and separately labeled operator-test outputs. The application and its business infrastructure are separate and are not open-sourced here.
 
 Corrections and useful prompt refinements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [USAGE.md](USAGE.md). Avoid advertising-only submissions and unsupported performance claims.
 
 
 ## Evaluation criteria
 
-Read the [evaluation method](docs/evaluation-method.md) for product preservation, Chinese text, fictional-character edits, background operations and multiple references. The twenty-task set is a planned acceptance procedure; this repository does not claim it has passed or publish an unsupported success rate.
+Read the [evaluation method](docs/evaluation-method.md) for product preservation, Chinese text, fictional-character edits, background operations and multiple references. The 2026-10-13 operator test completed twenty requests at 150 site credits. Technical completion is separate from visual quality; person and shoe cutouts retained unwanted foreground objects.
+
+
+## Recorded website outputs — 2026-10-13
+
+20 submissions, 20 returned images, 150 site credits, no retries or retouching. These are operator tests, not independent reviews. Read the [case manifest](evidence/2026-10-13/results.json) for full prompts, inputs, endpoints, settings, dimensions, credit charges, timing definitions and limitations. Download every original PNG from that directory.
+
+![Twenty recorded outputs](evidence/2026-10-13/contact-sheet.png)
